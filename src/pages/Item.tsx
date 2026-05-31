@@ -20,13 +20,13 @@ function Item({ img }: { img: ImageResult }) {
       style={{
         width: "280px",
         minWidth: "220px",
-        backgroundColor: "#111111",
+        backgroundColor: "#dca960",
         borderRadius: "8px",
         overflow: "hidden",
         cursor: "pointer",
-        border: hovered ? "2px solid #e8002a" : "2px solid transparent",
+        border: hovered ? "2px solid #1933b3" : "2px solid transparent",
         boxShadow: hovered
-          ? "0 12px 32px rgba(232,0,42,0.3)"
+          ? "0 12px 32px rgba(63, 14, 242, 0.45)"
           : "0 4px 15px rgba(0,0,0,0.5)",
         transform: hovered ? "scale(1.04)" : "scale(1)",
         transition: "0.3s",
@@ -58,12 +58,12 @@ function Item({ img }: { img: ImageResult }) {
       {/* Info */}
       <div style={{
         padding: "12px 14px",
-        borderTop: hovered ? "2px solid #e8002a" : "1px solid #222",
+        borderTop: hovered ? "2px solid rgba(13, 9, 150, 0.77)" : "1px solid #222",
         backgroundColor: hovered ? "#161616" : "#111111",
         transition: "0.3s",
       }}>
         <h2 style={{
-          color: "#d0d0c8",
+          color: "#80b7ea",
           fontSize: "12px",
           fontWeight: "bold",
           margin: "0 0 4px 0",
@@ -76,7 +76,7 @@ function Item({ img }: { img: ImageResult }) {
           {img.title || "Sport Bike"}
         </h2>
         <p style={{
-          color: "#555",
+          color: "#3a80dc",
           fontSize: "10px",
           textTransform: "uppercase",
           letterSpacing: "1.5px",

@@ -18,7 +18,7 @@ function Preview() {
 
   const params = {
     engine: "google_images",
-    q: "sport bike motorcycle",
+    q: "bmw, ducati, kawasaki sport bike motorcycle",
     hl: "en",
   }
 
@@ -39,11 +39,11 @@ function Preview() {
 
   return (
     <div style={{
-      backgroundColor: "#0a0a0a",
+      backgroundColor: "#dca960",
       minHeight: "100vh",
       padding: "0",
       margin: "0",
-      fontFamily: "Arial, sans-serif",
+      fontFamily: "Poppins, sans-serif",
     }}>
 
       {/* Header */}
@@ -51,7 +51,7 @@ function Preview() {
         textAlign: "center",
         paddingTop: "48px",
         paddingBottom: "32px",
-        borderBottom: "2px solid #e8002a",
+        borderBottom: "2px solid #1933b3",
         marginBottom: "24px",
       }}>
         <h1 style={{
@@ -62,16 +62,16 @@ function Preview() {
           textTransform: "uppercase",
           margin: "0 0 8px 0",
         }}>
-          Sport Bike Gallery
+          Sport Bikes
         </h1>
         <p style={{
-          color: "#888",
+          color: "#80b7ea",
           fontSize: "13px",
           letterSpacing: "3px",
           textTransform: "uppercase",
           margin: "0",
         }}>
-          Powered by SerpAPI · Google Images
+          Created By Rachel Kusuma 11A
         </p>
       </div>
 
@@ -92,7 +92,7 @@ function Preview() {
 
       <p style={{
         textAlign: "center",
-        color: "#444",
+        color: "#80b7ea",
         fontSize: "11px",
         letterSpacing: "2px",
         textTransform: "uppercase",
