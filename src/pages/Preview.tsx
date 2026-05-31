@@ -39,7 +39,7 @@ function Preview() {
 
   return (
     <div style={{
-      backgroundColor: "#1537b4",
+      backgroundColor: "#000000",
       minHeight: "100vh",
       padding: "0",
       margin: "0",

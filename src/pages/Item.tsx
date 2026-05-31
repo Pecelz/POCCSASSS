@@ -20,7 +20,7 @@ function Item({ img }: { img: ImageResult }) {
       style={{
         width: "280px",
         minWidth: "220px",
-        backgroundColor: "#1537b4",
+        backgroundColor: "#000000",
         borderRadius: "8px",
         overflow: "hidden",
         cursor: "pointer",
